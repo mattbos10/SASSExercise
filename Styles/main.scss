@@ -17,10 +17,17 @@
 
     h1 {
         text-decoration: underline;
-        @extend %center
+        @extend %center;
+        padding: 25px*4;
     }
     h2 {
         text-decoration: line-through;
         @extend %center
     }
 }
+.main h1:hover {
+    text-decoration: underline;
+    @extend %center;
+}
+
+// BONUS 3
